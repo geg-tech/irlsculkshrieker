@@ -178,7 +178,7 @@ I drew up some custom silkscreen decoration on Figma and imported them into KiCa
 
 <img width="617" alt="image" src="https://github.com/user-attachments/assets/c9274713-b95c-406d-aa79-22ce8074e547" /> <br/>
 
-i also sealed kendrick lamar under a neopixel for eternity
+i also sealed kendrick lamar under a neopixel for eternity <br/>
 <img width="158" alt="image" src="https://github.com/user-attachments/assets/a83cb3ac-dd2a-4702-9a00-c014ba341f8a" /> <br/>
 
 
