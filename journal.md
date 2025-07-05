@@ -145,4 +145,18 @@ I decided that I will go with the 3mm tiny LEDs to progress, leading me to start
 I found a neat ESP32 symbol by [this post](https://forum.kicad.info/t/esp32-dev-ch340-c-symbol-and-footprint/56483/12) on the KiCad forums, and used the handy [symbol guide](https://highway.hackclub.com/guides/symbol-design) by @espcaa to make all of the components.
 
 I also found out that the Micro SD card module I was using is incompatable with the ESP32, since it operates at 5V, while the ESP32 can only supply 3.3V and would otherwise damage the microcontroller 💔 <br/>
-I tried finding alternatives on Aliexpress, but found most of the sellers to be relatively shabby (<100 sold + new stores) or lacking proper datasheets/documentation, which makes buying from Aliexpress more so a *gamble* on whether or not the module will fry my ESP32. In the end, I ended up using a breakout board from [Adafruit](https://www.adafruit.com/product/4682) for $3.50, which operates at 3.3V.
+I tried finding alternatives on Aliexpress, but found most of the sellers to be relatively shabby (<100 sold + new stores) or lacking proper datasheets/documentation, which makes buying from Aliexpress more so a *gamble* on whether or not the module will fry my ESP32. In the end, I ended up using a breakout board from [Adafruit](https://www.adafruit.com/product/4682) for $3.50, which operates at 3.3V. <br/>
+
+After a good while of making custom footprints, I ended up with the following schematic. <br/>
+
+<img width="730" alt="image" src="https://github.com/user-attachments/assets/ab254fb9-76de-49ce-883b-d82c5c2b0b83" /> <br/>
+
+After that was to design the actual *pcb* part of the build, or the RGB ring. <br/>
+After considering, I chose the SMD leds due to their customizability and their need for only one GPIO pin. I also chose the regular and larger SK6812 LEDs over the SK6812-MINI since they're easier to solder on SMD and would cost less to fill up the board.
+Speaking of cost, I'm also ordering these RGB lights off of Adafruit to package the shipping cost with the previously mentioned Micro SD card. Adafruit also has a *decent* price compared to Amazon or Aliexpress for the amount I'm ordering. <br/>
+
+I wired the SMD leds similarly to the ones on my Hackpad, chaining them together from DIN to DOUT. <br/>
+
+<img width="911" alt="image" src="https://github.com/user-attachments/assets/cb67c599-48f8-4659-b08c-67bc20848fef" />
+
+5 hours rn
