@@ -157,6 +157,29 @@ Speaking of cost, I'm also ordering these RGB lights off of Adafruit to package 
 
 I wired the SMD leds similarly to the ones on my Hackpad, chaining them together from DIN to DOUT. <br/>
 
-<img width="911" alt="image" src="https://github.com/user-attachments/assets/cb67c599-48f8-4659-b08c-67bc20848fef" />
+<img width="911" alt="image" src="https://github.com/user-attachments/assets/cb67c599-48f8-4659-b08c-67bc20848fef" /> <br/>
 
-5 hours rn
+Once I had the schematic, I started work on the PCB. I measured the dimensions from Fusion for the space around the speaker and inside the jaws and ported them into KiCad as Edge Cuts, making a square shaped ring to place my lights on. <br/>
+I then spaced out the LEDs on the ring. To connect the PCB to the ESP32, I added copper pads to the backside of the PCB to solder and wire to the inside, using [@espcaa's custom symbol guide](https://highway.hackclub.com/guides/symbol-design) once again. <br/>
+I also used copper filling to route the GND and 3.3V, making the topside of the PCB 3.3V to connect the pads and GND to the backside, connecting them through vias. <br/>
+
+This left me with a pretty nice looking Neopixel ring in the shape of a square. The RGB lights I'm ordering come in a black case rather than white, which will make the neopixels blend in much better with the rest of the build. <br/>
+
+<img width="467" alt="image" src="https://github.com/user-attachments/assets/6156c0de-993b-439f-8248-1b47fed90319" /> <br/>
+<img width="639" alt="image" src="https://github.com/user-attachments/assets/fbb57edf-6996-4a24-aaeb-e7e440265f8c" /> <br/>
+
+Once I had that sorted out, I started work on some silkscreen on the back for fun (this side will be hidden in the final product) <br/>
+
+> figma has suddenly became my favorite drawing software
+
+got a lil carried away with the sikscreen on the back lol <br/>
+I drew up some custom silkscreen decoration on Figma and imported them into KiCad, as well as some Highway branding and the cerberus sticker by @bunnyguy on slack. I aimed to make some form of "business/information card", as well as a piece of Highway memorabilia.
+> btw the cerberus is really cute thank you bunnyguy
+
+<img width="617" alt="image" src="https://github.com/user-attachments/assets/c9274713-b95c-406d-aa79-22ce8074e547" /> <br/>
+
+i also sealed kendrick lamar under a neopixel for eternity
+<img width="158" alt="image" src="https://github.com/user-attachments/assets/a83cb3ac-dd2a-4702-9a00-c014ba341f8a" /> <br/>
+
+
+8 hours rn 
