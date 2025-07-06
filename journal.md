@@ -162,6 +162,7 @@ I wired the SMD leds similarly to the ones on my Hackpad, chaining them together
 Once I had the schematic, I started work on the PCB. I measured the dimensions from Fusion for the space around the speaker and inside the jaws and ported them into KiCad as Edge Cuts, making a square shaped ring to place my lights on. <br/>
 I then spaced out the LEDs on the ring. To connect the PCB to the ESP32, I added copper pads to the backside of the PCB to solder and wire to the inside, using [@espcaa's custom symbol guide](https://highway.hackclub.com/guides/symbol-design) once again. <br/>
 I also used copper filling to route the GND and 3.3V, making the topside of the PCB 3.3V to connect the pads and GND to the backside, connecting them through vias. <br/>
+> this was also my first time working with ground fill :3 
 
 <img width="845" alt="image" src="https://github.com/user-attachments/assets/2b494d67-4cf0-459a-830f-e1eb8a18e649" /> <br/>
 
@@ -188,6 +189,10 @@ I placed it over the top of the shrieker and extruded a quick plate to cover up 
 
 <img width="423" alt="image" src="https://github.com/user-attachments/assets/46849f1b-10d0-46d1-8964-70a21bf5ee01" /> <br/>
 
+Since I replaced the SD card module with the one from Adafruit, I also have to replace that part of the CAD. I couldn't find any models for it on GrabCAD, so I had to recreate it like the speaker. <br/>
+I found the general dimensions on the store page, as well 
+<img width="535" alt="image" src="https://github.com/user-attachments/assets/855f8352-6be1-4266-bab3-965e9a03f5ce" />
+
 All this leaves now is to polish up the case with tolerances, finish the code, make the BOM, and to finish up the GitHub for submission. <br/>
 
-time spent: 9 hours!! (started work at 8 am lol)
+time spent: 9 hours!! (started work at 8 am, ending here at 10 pm lol)
