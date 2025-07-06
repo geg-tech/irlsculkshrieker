@@ -181,5 +181,10 @@ I drew up some custom silkscreen decoration on Figma and imported them into KiCa
 i also sealed kendrick lamar under a neopixel for eternity <br/>
 <img width="158" alt="image" src="https://github.com/user-attachments/assets/a83cb3ac-dd2a-4702-9a00-c014ba341f8a" /> <br/>
 
+After I finished the PCB, I exported it as a STEP file and put it into Fusion. <br/>
+I placed it over the top of the shrieker and extruded a quick plate to cover up small imperfections (plate is optional).
+
+<img width="423" alt="image" src="https://github.com/user-attachments/assets/46849f1b-10d0-46d1-8964-70a21bf5ee01" />
+
 
 8 hours rn 
