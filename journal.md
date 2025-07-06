@@ -190,9 +190,15 @@ I placed it over the top of the shrieker and extruded a quick plate to cover up 
 <img width="423" alt="image" src="https://github.com/user-attachments/assets/46849f1b-10d0-46d1-8964-70a21bf5ee01" /> <br/>
 
 Since I replaced the SD card module with the one from Adafruit, I also have to replace that part of the CAD. I couldn't find any models for it on GrabCAD, so I had to recreate it like the speaker. <br/>
-I found the general dimensions on the store page, as well 
-<img width="535" alt="image" src="https://github.com/user-attachments/assets/855f8352-6be1-4266-bab3-965e9a03f5ce" />
+I found the general dimensions on the store page, and used a top down view and a micro sd card model from GrabCAD to reconstruct the features of the breakout board. <br/>
 
-All this leaves now is to polish up the case with tolerances, finish the code, make the BOM, and to finish up the GitHub for submission. <br/>
+<img width="535" alt="image" src="https://github.com/user-attachments/assets/855f8352-6be1-4266-bab3-965e9a03f5ce" /> <br/>
+
+
+I also spent some time completing the first draft of my BOM <br/>
+
+<img width="1433" alt="image" src="https://github.com/user-attachments/assets/10563c76-0ddb-4a37-941e-9e0e0547e7b0" /> <br/>
+
+All this leaves now is to polish up the case with tolerances, finish the code and BOM, and to finish up the GitHub for submission. <br/>
 
 time spent: 9 hours!! (started work at 8 am, ending here at 10 pm lol)
