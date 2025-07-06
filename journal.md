@@ -163,6 +163,8 @@ Once I had the schematic, I started work on the PCB. I measured the dimensions f
 I then spaced out the LEDs on the ring. To connect the PCB to the ESP32, I added copper pads to the backside of the PCB to solder and wire to the inside, using [@espcaa's custom symbol guide](https://highway.hackclub.com/guides/symbol-design) once again. <br/>
 I also used copper filling to route the GND and 3.3V, making the topside of the PCB 3.3V to connect the pads and GND to the backside, connecting them through vias. <br/>
 
+<img width="845" alt="image" src="https://github.com/user-attachments/assets/2b494d67-4cf0-459a-830f-e1eb8a18e649" /> <br/>
+
 This left me with a pretty nice looking Neopixel ring in the shape of a square. The RGB lights I'm ordering come in a black case rather than white, which will make the neopixels blend in much better with the rest of the build. <br/>
 
 <img width="467" alt="image" src="https://github.com/user-attachments/assets/6156c0de-993b-439f-8248-1b47fed90319" /> <br/>
