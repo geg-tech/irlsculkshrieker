@@ -203,7 +203,7 @@ All this leaves now is to polish up the case with tolerances, finish the code an
 
 time spent: 9 hours!! (started work at 8 am, ending here at 10 pm lol)
 
-## 7/6/25 - cad but for the last time frfr (and coding)
+## 7/6/25 - cad but for the last time frfr
 Today I finished up the last of the CAD and started to code the software to make the shrieker *shriek* <br/>
 
 I first added some test and decoration to my Adafruit SD card module to help it stand out, as well as actually inserting it into the main assembly file. Once I had that, I made up a quick sketch and designed a slot for the module to slide into. <br/>
@@ -221,5 +221,17 @@ While I was looking around for the part links for my BOM, I ran into a "sound se
 * The sound module functions as a simple analog/digital sensor (as detailed [here](https://arduinomodules.info/ky-037-high-sensitivity-sound-detection-module/)), while the microphone requires a i2s library, along with additional code to detect whether or not the sound is above the threshold
 
 <img width="917" alt="image" src="https://github.com/user-attachments/assets/4f25d636-2fbf-4aff-8c8b-bea4481db8c6" /> <br/>
+
+In the end I decided to replace the microphone with this module, which also meant that I had to redo all of the spacing for the parts inside of the block. <br/>
+The KY-037 was relatively large compared to everything else, which led me to move the speaker amp and sd card module to the same side and to remake the slots. <br/>
+
+<img width="566" alt="image" src="https://github.com/user-attachments/assets/1230c566-9e6d-4fdb-8f83-1f5ac9956ced" /> <br/>
+
+Once I had the CAD down (for the last time i hope), I had to update the wiring diagram. Since I replaced two of the modules, I have to replace their symbols in KiCad with the new ones and rewire the wiring diagram. <br/>
+I also did further research on the RGB chain and added a 470 ohm resistor between the ESP32 and the RGB chain to help the signals not get scrambled <br/>
+
+<img width="725" alt="image" src="https://github.com/user-attachments/assets/ad3ba4f4-fdbe-4a43-aa1e-bb1dfdffd2a4" /> <br/>
+
+time spent: 3 hours
 
 
