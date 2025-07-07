@@ -234,4 +234,7 @@ I also did further research on the RGB chain and added a 470 ohm resistor betwee
 
 time spent: 3 hours
 
+## 7/7/25 - software time
+double 7 day wowowow
+
 
