@@ -214,7 +214,7 @@ I also decided to rework the slots for the speaker amp, turning onto its side an
 
 <img width="590" alt="image" src="https://github.com/user-attachments/assets/111de249-6fd6-444d-9e23-a97c33d62afa" /> <br/>
 
-While I was looking around for the part links for my BOM, I ran into a "sound sensor" module on sale for only $1.04. I dismissed it at first, since I already had my audio receiving system figured out, but after I looked into it more, it seemed to be better than what I had previously. <br/>
+While I was looking around for the part links for my BOM, I ran into a "sound sensor" (KY-037) module on sale for only $1.04. I dismissed it at first, since I already had my audio receiving system figured out, but after I looked into it more, it seemed to be better than what I had previously. <br/>
 * While the microphone I previously had in mind used up 4 GPIO and a custom library off of the internet, the module I found seemed to function as both a regular analog and digital sensor, requiring only 1 GPIO at minimum, and 2 for both analog and digital.
 * The sound module I found also has an integrated potentiometer, which allows me to easily adjust the sensitivity of the shrieker
 * The sound module was a tiny bit cheaper than the microphone I previously had, standing at $1.04 compared to $2.92
@@ -237,4 +237,21 @@ time spent: 3 hours
 ## 7/7/25 - software time
 double 7 day wowowow
 
+Today I started work on the software side of the project. <br/>
+Since this project uses an ESP32, I can use the Arduino IDE to code my sculk shrieker, which has numerous libraries to support the modules I am using. <br/>
 
+I used [this section](https://dronebotworkshop.com/esp32-i2s/#ESP32_MP3_Player) of the blog by DronebotWorkshop as reference to set up the SD card and i2s library, combining the `void loop() {}` section with my own code to work with the KY-037 module I found. <br/>
+
+<img width="716" alt="image" src="https://github.com/user-attachments/assets/2a9d7f39-d172-4ad0-b783-6b484e997937" /> <br/>
+
+After that, I had to configure the Neopixel PCB with my ESP32. I found an [article by Adafruit](https://learn.adafruit.com/adafruit-neopixel-uberguide/arduino-library-use) that details a bunch of functions I can use to display and work the neopixels in the chain. <br/>
+The RGB will be animated, such that there will only be two lights on at once on opposite sides of the ring and moving around the ring to simulate orbiting. Since there are 20 neopixels in the PCB, there will have to be 9 neopixels between the lit up ones, or 10 if we're counting the lit up one like the firmware is. <br/>
+To do this effect, I set up a for loop to increment a variable, as well as another function inside to select the pixels to be lit up. After a small delay (~250 to 500 milliseconds), the outer for loop will increment by 1 and "move" the pixels by making the inner function move up by that 1 increment, quickly refreshing the neopixels to display the moved pixels. <br/>
+
+<img width="1064" alt="image" src="https://github.com/user-attachments/assets/8e5cbf5b-cb07-4393-8a50-ba2e75555eef" /> <br/>
+
+In order to make sure my idea worked, I moved the code and setup to TinkerCad, where I could test the code with virtual Neopixels in their circuit builder. I put in my code and arranged the pre-made neopixel strips to resemble my PCB and repeatedly changed the code until it worked the way I wanted it to. <br/>
+
+<img width="1137" alt="image" src="https://github.com/user-attachments/assets/0414fb3e-3470-4335-ace8-ec5572611dc1" /> <br/>
+
+current time: 3 hours
