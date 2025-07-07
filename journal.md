@@ -202,3 +202,16 @@ I also spent some time completing the first draft of my BOM <br/>
 All this leaves now is to polish up the case with tolerances, finish the code and BOM, and to finish up the GitHub for submission! <br/>
 
 time spent: 9 hours!! (started work at 8 am, ending here at 10 pm lol)
+
+## 7/6/25 - cad but for the last time frfr (and coding)
+Today I finished up the last of the CAD and started to code the software to make the shrieker *shriek* <br/>
+
+I first added some test and decoration to my Adafruit SD card module to help it stand out, as well as actually inserting it into the main assembly file. Once I had that, I made up a quick sketch and designed a slot for the module to slide into. <br/>
+
+<img width="642" alt="image" src="https://github.com/user-attachments/assets/fb2e4c1f-e4de-4df3-a9a1-f6bcad0d2e3c" /> <br/>
+
+I also decided to rework the slots for the speaker amp, turning onto its side and making a more secure design for it (idk how to describe it just look at it ok) <br/>
+
+<img width="590" alt="image" src="https://github.com/user-attachments/assets/111de249-6fd6-444d-9e23-a97c33d62afa" /> <br/>
+
+
