@@ -214,4 +214,12 @@ I also decided to rework the slots for the speaker amp, turning onto its side an
 
 <img width="590" alt="image" src="https://github.com/user-attachments/assets/111de249-6fd6-444d-9e23-a97c33d62afa" /> <br/>
 
+While I was looking around for the part links for my BOM, I ran into a "sound sensor" module on sale for only $1.04. I dismissed it at first, since I already had my audio receiving system figured out, but after I looked into it more, it seemed to be better than what I had previously. <br/>
+* While the microphone I previously had in mind used up 4 GPIO and a custom library off of the internet, the module I found seemed to function as both a regular analog and digital sensor, requiring only 1 GPIO at minimum, and 2 for both analog and digital.
+* The sound module I found also has an integrated potentiometer, which allows me to easily adjust the sensitivity of the shrieker
+* The sound module was a tiny bit cheaper than the microphone I previously had, standing at $1.04 compared to $2.92
+* The sound module functions as a simple analog/digital sensor (as detailed [here](https://arduinomodules.info/ky-037-high-sensitivity-sound-detection-module/)), while the microphone requires a i2s library, along with additional code to detect whether or not the sound is above the threshold
+
+<img width="917" alt="image" src="https://github.com/user-attachments/assets/4f25d636-2fbf-4aff-8c8b-bea4481db8c6" /> <br/>
+
 
