@@ -1,4 +1,4 @@
----
+<img width="713" alt="image" src="https://github.com/user-attachments/assets/00a828d5-cb72-451e-a441-9adb7cb44068" />---
 title: "IRL Sculk Shrieker"
 author: "egg_splats"
 description: "The Minecraft sculk shrieker... In real life! (warden sold seperately)"
@@ -245,6 +245,7 @@ I used [this section](https://dronebotworkshop.com/esp32-i2s/#ESP32_MP3_Player) 
 <img width="716" alt="image" src="https://github.com/user-attachments/assets/2a9d7f39-d172-4ad0-b783-6b484e997937" /> <br/>
 
 After that, I had to configure the Neopixel PCB with my ESP32. I found an [article by Adafruit](https://learn.adafruit.com/adafruit-neopixel-uberguide/arduino-library-use) that details a bunch of functions I can use to display and work the neopixels in the chain. <br/>
+
 The RGB will be animated, such that there will only be two lights on at once on opposite sides of the ring and moving around the ring to simulate orbiting. Since there are 20 neopixels in the PCB, there will have to be 9 neopixels between the lit up ones, or 10 if we're counting the lit up one like the firmware is. <br/>
 To do this effect, I set up a for loop to increment a variable, as well as another function inside to select the pixels to be lit up. After a small delay (~250 to 500 milliseconds), the outer for loop will increment by 1 and "move" the pixels by making the inner function move up by that 1 increment, quickly refreshing the neopixels to display the moved pixels. <br/>
 
@@ -254,4 +255,24 @@ In order to make sure my idea worked, I moved the code and setup to TinkerCad, w
 
 <img width="1137" alt="image" src="https://github.com/user-attachments/assets/0414fb3e-3470-4335-ace8-ec5572611dc1" /> <br/>
 
-current time: 3 hours
+now that the firmware is done, the first iteration of the sculk shrieker is done! <br/>
+yippee! :D <br/>
+
+All that leaves now between me and submitting is to finish up the BOM, this GitHub repo, and the README <br/> 
+...starting with the BOM! <br/>
+
+but first some cool renders <br/>
+
+<img width="713" alt="image" src="https://github.com/user-attachments/assets/3ea59866-a589-444d-b655-6eb1381fde50" /> <br/>
+![exploded](https://github.com/user-attachments/assets/1915572c-0afd-48fd-bbd2-8cffe6f78721)
+
+anyways back to the BOM <br/>
+I updated some of the prices since some of them changed by a few cents, as well as replacing the microphone with the new KY-037 sound sensor. Once I had the subtotal down, I went into each of the stores and got the total price for each source (tax + shipping), resulting in a total price of **$42.66**
+
+<img width="1362" alt="image" src="https://github.com/user-attachments/assets/9f3a8c42-a85d-4a68-8bc6-9ae25143d6fa" /> <br/>
+
+Most of the important parts are sourced from Aliexpress, which I worry will *not* ship the parts in time for the August 7th deadline due to customs (my angelic keyboard parts got held in customs for ***two fucking weeks*** for some mysterious reason which is why I worry they'll come too late)
+
+With the BOM now done, I now have to flush out the rest of the GitHub repo!
+
+current time: 4 hours
