@@ -241,6 +241,7 @@ Today I started work on the software side of the project. <br/>
 Since this project uses an ESP32, I can use the Arduino IDE to code my sculk shrieker, which has numerous libraries to support the modules I am using. <br/>
 
 I used [this section](https://dronebotworkshop.com/esp32-i2s/#ESP32_MP3_Player) of the blog by DronebotWorkshop as reference to set up the SD card and i2s library, combining the `void loop() {}` section with my own code to work with the KY-037 module I found. <br/>
+To make the sound, I took the audio files from the [Minecraft Wiki](https://minecraft.wiki/w/Sculk_Shrieker#Unique) for the shrieking sound and for the Warden's heartbeat, combining them in Audacity to form a more cohesive and game accurate sound effect.
 
 <img width="716" alt="image" src="https://github.com/user-attachments/assets/2a9d7f39-d172-4ad0-b783-6b484e997937" /> <br/>
 
