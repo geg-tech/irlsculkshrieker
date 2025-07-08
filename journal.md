@@ -10,6 +10,8 @@ huge inspiration from [@aron huang's Minecraft Compass](https://hackclub.slack.c
 
 (dates are in mm/dd/yy again because 🦅)
 
+# Total Time: 
+
 ## 6/28/25 - Figuring out electronics and design (a.k.a. da plan)
 Today I made the repo for this project, and started to plan out the internals of this sculk shrieker. <br/>
 
@@ -276,4 +278,8 @@ Most of the important parts are sourced from Aliexpress, which I worry will *not
 
 With the BOM now done, I now have to flush out the rest of the GitHub repo!
 
-current time: 4 hours
+time spent: 4 hours 
+
+## 7/8/25 - submitting!!
+Today I finished the Github Repo and the README.md <br/>
+yeah idk what else to put here you can go look around the repo and stuff
