@@ -9,7 +9,13 @@ This block will ~~summon a warden at your exact location~~ shriek whenever it he
 
 I made this project as my last Highway submission, and wanted to end off with something that *wasn't* another keyboard. I saw the Minecraft submissions by [@aaron huang and his compass](https://github.com/RunTheBot/Compasses-Were-Copied-From-Minecraft) and by [@danieliscrazy and his jukebox](https://github.com/danieliscrazy/Jukebox), and was inspired to make my own Minecraft-related project, which soon grew into this sculk shrieker. <br/>
 
-I aimed to be as *game-accurate* as possible while also putting my own spin on the design, using the textures as reference when detailing and modeling the case and incorporating little features and details into the final result, such as the animated textures on the top of the block. Every pixel on the texture translates to 4mm on the model, making the entire shrieker have a tiny footprint of *64mm x 64mm! wow!* 
+I aimed to be as *game accurate* as possible while also putting my own spin on the design, using the textures as reference when detailing and modeling the case and incorporating little features and details into the final result, such as the animated textures on the top of the block. Every pixel on the texture translates to 4mm on the model, making the entire shrieker have a tiny footprint of *64mm x 64mm! wow!* 
+
+*features:*
+* 3D game accurate model with separated components to be as easy to paint as possible
+* shrieker audio taken from the game, which can be changed via micro SD
+* animated RGB ring to simulate the animated souls on the top of the block
+* tiny 64mm x 64mm footprint
 
 ## CAD
 ![render](https://github.com/user-attachments/assets/03bc3b60-870e-49e0-86c0-b32caa13e6a9)
