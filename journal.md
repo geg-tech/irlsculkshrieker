@@ -1,4 +1,4 @@
-<img width="713" alt="image" src="https://github.com/user-attachments/assets/00a828d5-cb72-451e-a441-9adb7cb44068" />---
+---
 title: "IRL Sculk Shrieker"
 author: "egg_splats"
 description: "The Minecraft sculk shrieker... In real life! (warden sold seperately)"
