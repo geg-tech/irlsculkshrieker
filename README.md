@@ -7,7 +7,7 @@ This is a recreation of the [***sculk shrieker***](https://minecraft.wiki/w/Scul
 This block will ~~summon a warden at your exact location~~ shriek whenever it hears a sound nearby through a speaker embedded inside the top of the shrieker. Perfect for alarming anyone sneaking past you and inflicting [*severe ancient city flashbacks*](https://github.com/geg-tech/irlsculkshrieker/blob/main/extras/flashbacks.png) onto friends!
 
 
-I made this project as my last Highway submission, and wanted to end off with something that *wasn't* another keyboard. I saw the Minecraft submissions by [@aaron huang and his compass](https://hackclub.slack.com/archives/C08S22XRYMU/p1750910065012999) and by [@danieliscrazy and his jukebox](https://github.com/danieliscrazy/Jukebox), and was inspired to make my own Minecraft-related project, which soon grew into this sculk shrieker. <br/>
+I made this project as my last Highway submission, and wanted to end off with something that *wasn't* another keyboard. I saw the Minecraft submissions by [@aaron huang and his compass](https://github.com/RunTheBot/Compasses-Were-Copied-From-Minecraft) and by [@danieliscrazy and his jukebox](https://github.com/danieliscrazy/Jukebox), and was inspired to make my own Minecraft-related project, which soon grew into this sculk shrieker. <br/>
 
 I aimed to be as *game-accurate* as possible while also putting my own spin on the design, using the textures as reference when detailing and modeling the case and incorporating little features and details into the final result, such as the animated textures on the top of the block. Every pixel on the texture translates to 4mm on the model, making the entire shrieker have a tiny footprint of *64mm x 64mm! wow!* 
 
@@ -46,3 +46,11 @@ I aimed to be as *game-accurate* as possible while also putting my own spin on t
 |Subtotal: $27.03| | | | |
 | Aliexpress: $12.35 | JLCPCB: $8.12 | Adafruit: $21.19 | | |
 | Total: **$42.66** | | | | |
+
+## notes/extras
+
+* huge thanks to [@aaron huang](https://github.com/RunTheBot/Compasses-Were-Copied-From-Minecraft) and [@danieliscrazy](https://github.com/danieliscrazy/Jukebox) for their respective projects and inspiring me to make something from Minecraft
+* shout out to the people behind the (*actually good*) [Minecraft Wiki](https://minecraft.wiki/w/Sculk_Shrieker), which hosted the textures for the sculk shrieker for myself to use
+* the person behind [DroneBotWorkshop](https://dronebotworkshop.com/esp32-i2s/), which provided helpful reference for setting up the firmware
+* the people behind highway (as always :3)
+
