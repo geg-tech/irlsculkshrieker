@@ -26,11 +26,23 @@ I aimed to be as *game-accurate* as possible while also putting my own spin on t
 <img width="688" alt="image" src="https://github.com/user-attachments/assets/c998b319-6ba1-40f9-bb9d-02456819012e" /> <br/>
 
 ## BOM
-|name|quantity|price|link|
-|---|---|---|---|
-|Adafruit Micro SD SPI/SDIO Breakout Board|x1|$3.50|[here](https://www.adafruit.com/product/4682)|
-|SK6812RGBW LEDs|x20||$11.90|[here](https://www.adafruit.com/product/2762)|
-|4 Ohm 3 Watt Speaker|x1|$2.95|[here](https://www.aliexpress.us/item/3256805513376202.html?spm=a2g0o.detail.0.0.e91d8P9I8P9IvQ&mp=1&pdp_npi=5%40dis%21USD%21USD%202.95%21USD%202.81%21%21USD%202.81%21%21%21%402101ef7017517659888774051ebce8%2112000037280015644%21ct%21US%216388337753%21%211%210&gatewayAdapt=glo2usa)|
-|KY-037 Sound Sensor|x1|$1.04|[here](https://www.aliexpress.us/item/3256807347494500.html?spm=a2g0o.detail.0.0.542aLwRHLwRHNI&mp=1&pdp_npi=5%40dis%21USD%21USD%202.92%21USD%202.92%21%21USD%202.92%21%21%21%402103244617517664615985016e6b67%2112000041188403861%21ct%21US%216388337753%21%211%210&gatewayAdapt=glo2usa)|
-|ESP32|x1|$3.98|[here](https://www.aliexpress.us/item/3256807453968983.html?spm=a2g0o.detail.0.0.4443wfd1wfd1Kn&mp=1&pdp_npi=5%40dis%21USD%21USD%203.98%21USD%203.64%21%21USD%203.64%21%21%21%402103246617517664681434438e1056%2112000041608696464%21ct%21US%216388337753%21%211%210&gatewayAdapt=glo2usa)|
-|MAX98357A Speaker Amp|x1|$1.66|[here](https://www.aliexpress.us/item/3256806882501015.html?spm=a2g0o.detail.0.0.7a781pAH1pAHw5&mp=1&pdp_npi=5%40dis%21USD%21USD%201.84%21USD%201.80%21%21USD%201.80%21%21%21%402103277f17517664746265268e3da2%2112000039302356100%21ct%21US%216388337753%21%211%210&gatewayAdapt=glo2usa)|
+|name|quantity|price|link|source|
+|---|---|---|---|---|
+|Adafruit Micro SD SPI/SDIO Breakout Board|x1|$3.50|[here](https://www.adafruit.com/product/4682)|Adafruit|
+|SK6812RGBW LEDs|x20|$11.90|[here](https://www.adafruit.com/product/2762)|Adafruit|
+|4 Ohm 3 Watt Speaker|x1|$2.95|[here](https://www.aliexpress.us/item/3256805513376202.html?spm=a2g0o.detail.0.0.e91d8P9I8P9IvQ&mp=1&pdp_npi=5%40dis%21USD%21USD%202.95%21USD%202.81%21%21USD%202.81%21%21%21%402101ef7017517659888774051ebce8%2112000037280015644%21ct%21US%216388337753%21%211%210&gatewayAdapt=glo2usa)|Aliexpress|
+|KY-037 Sound Sensor|x1|$1.04|[here](https://www.aliexpress.us/item/3256807347494500.html?spm=a2g0o.detail.0.0.542aLwRHLwRHNI&mp=1&pdp_npi=5%40dis%21USD%21USD%202.92%21USD%202.92%21%21USD%202.92%21%21%21%402103244617517664615985016e6b67%2112000041188403861%21ct%21US%216388337753%21%211%210&gatewayAdapt=glo2usa)|Aliexpress|
+|ESP32|x1|$3.98|[here](https://www.aliexpress.us/item/3256807453968983.html?spm=a2g0o.detail.0.0.4443wfd1wfd1Kn&mp=1&pdp_npi=5%40dis%21USD%21USD%203.98%21USD%203.64%21%21USD%203.64%21%21%21%402103246617517664681434438e1056%2112000041608696464%21ct%21US%216388337753%21%211%210&gatewayAdapt=glo2usa)|Aliexpress|
+|MAX98357A Speaker Amp|x1|$1.66|[here](https://www.aliexpress.us/item/3256806882501015.html?spm=a2g0o.detail.0.0.7a781pAH1pAHw5&mp=1&pdp_npi=5%40dis%21USD%21USD%201.84%21USD%201.80%21%21USD%201.80%21%21%21%402103277f17517664746265268e3da2%2112000039302356100%21ct%21US%216388337753%21%211%210&gatewayAdapt=glo2usa)|Aliexpress|
+|PCB||x1|$2.00| |JLCPCB|
+|Case (all parts)|x1|$0.00| |3D printing|
+|M2 Screws|x4 16mm, x2 10mm|$0.00| | Already Owned|
+|Paint|x1|$0.00| | Already Owned|
+|Cable|x1|$0.00| | Already Owned|
+|Soldering Iron + Solder wire + Flux|x1|$0.00| | Already Owned|
+|Solid Core Wire|x1|$0.00| | Already Owned|
+|Hot Glue|x1|$0.00| | Already Owned|
+| | | | | |
+|Subtotal: $27.03| | | | |
+| Aliexpress: $12.35 | JLCPCB: $8.12 | Adafruit: $21.19 | | |
+| Total: $42.66 | | | | |
