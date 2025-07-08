@@ -4,7 +4,7 @@ This is a recreation of the [***sculk shrieker***](https://minecraft.wiki/w/Scul
 
 ![warden](https://github.com/user-attachments/assets/7622232f-a346-405a-a716-3ee246f41c43)
 
-This block will ~~summon a warden at your exact location~~ shriek whenever it hears a sound nearby through a speaker embedded inside the top of the shrieker. Perfect for alarming anyone sneaking past you and inflicting *severe ancient city flashbacks* onto friends!
+This block will ~~summon a warden at your exact location~~ shriek whenever it hears a sound nearby through a speaker embedded inside the top of the shrieker. Perfect for alarming anyone sneaking past you and inflicting [*severe ancient city flashbacks*](https://github.com/geg-tech/irlsculkshrieker/blob/main/extras/flashbacks.png) onto friends!
 
 
 I made this project as my last Highway submission, and wanted to end off with something that *wasn't* another keyboard. I saw the Minecraft submissions by [@aaron huang and his compass](https://hackclub.slack.com/archives/C08S22XRYMU/p1750910065012999) and by [@danieliscrazy and his jukebox](https://github.com/danieliscrazy/Jukebox), and was inspired to make my own Minecraft-related project, which soon grew into this sculk shrieker. <br/>
