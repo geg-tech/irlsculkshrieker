@@ -54,6 +54,8 @@ I aimed to be as *game accurate* as possible while also putting my own spin on t
 | Total: **$42.66** | | | | |
 
 ## notes/extras
+Neopixels and the SD card module were sourced from Adafruit to package the shipping/tax together:
+* The Adafruit SD card module is specifically rated for 3V, ensuring that it doesn't blow up the esp32
 
 * huge thanks to [@aaron huang](https://github.com/RunTheBot/Compasses-Were-Copied-From-Minecraft) and [@danieliscrazy](https://github.com/danieliscrazy/Jukebox) for their respective projects and inspiring me to make something from Minecraft
 * shout out to the people behind the (*actually good*) [Minecraft Wiki](https://minecraft.wiki/w/Sculk_Shrieker), which hosted the textures for the sculk shrieker for myself to use
