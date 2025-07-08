@@ -10,7 +10,7 @@ huge inspiration from [@aron huang's Minecraft Compass](https://hackclub.slack.c
 
 (dates are in mm/dd/yy again because 🦅)
 
-# Total Time: 
+# Total Time: 30 hours
 
 ## 6/28/25 - Figuring out electronics and design (a.k.a. da plan)
 Today I made the repo for this project, and started to plan out the internals of this sculk shrieker. <br/>
