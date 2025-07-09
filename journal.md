@@ -283,3 +283,10 @@ time spent: 4 hours
 ## 7/8/25 - submitting!!
 Today I finished the Github Repo and the README.md <br/>
 yeah idk what else to put here you can go look around the repo and stuff
+
+## 7/9/25 - BOM revision (sadge)
+revised the BOM to be cheaper since adafruit is overpriced <br/>
+...BUT WE GOT AN EXTRA POINT WOOOOOOO <br/>
+
+anyways i replaced those parts and reduced the cost for components by a lot (now $25.03) <br/>
+time spent: like 5 minutes 
