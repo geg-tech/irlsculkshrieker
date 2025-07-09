@@ -50,8 +50,8 @@ I aimed to be as *game accurate* as possible while also putting my own spin on t
 |Hot Glue|x1|$0.00| | Already Owned|
 | | | | | |
 |Subtotal: $27.03| | | | |
-| Aliexpress: $12.35 | JLCPCB: $8.12 | Adafruit: $21.19 | | |
-| Total: **$42.66** | | | | |
+| Aliexpress: $16.91 | JLCPCB: $8.12 | | | |
+| Total: **$25.03** | | | | |
 
 ## notes/extras
 Neopixels and the SD card module were sourced from Adafruit to package the shipping/tax together:
