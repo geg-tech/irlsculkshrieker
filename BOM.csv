@@ -1,0 +1,18 @@
+Name,Quantity,Price,Source,Purpose,Link
+Micro SD SPI/SDIO Breakout Board,1,$1.16,Aliexpress,Hosts MP3 files to play via the speaker,https://www.aliexpress.us/item/3256807025102697.html?spm=a2g0o.productlist.main.22.76062979sv16Ys&aem_p4p_detail=202507091234296877204339592160001470840&algo_pvid=2704982b-dbc3-4469-bc09-b28713b35cae&algo_exp_id=2704982b-dbc3-4469-bc09-b28713b35cae-19&pdp_ext_f=%7B%22order%22%3A%22156%22%2C%22eval%22%3A%221%22%7D&pdp_npi=4%40dis%21USD%211.99%211.94%21%21%2114.22%2113.83%21%4021030ea417520896694654841ebaa9%2112000039821817298%21sea%21US%216388337753%21X&curPageLogUid=vFXRvpeSNyqn&utparam-url=scene%3Asearch%7Cquery_from%3A&search_p4p_id=202507091234296877204339592160001470840_5#nav-specification
+SK6812 LEDs,20,$4.18,Aliexpress,Adds animated lighting to the top,https://www.aliexpress.us/item/2251832437268792.html?spm=a2g0o.productlist.main.21.5d88GqqjGqqjJ1&algo_pvid=360120fd-e970-4f8d-8365-b130bf63ae4a&algo_exp_id=360120fd-e970-4f8d-8365-b130bf63ae4a-18&pdp_ext_f=%7B%22order%22%3A%22123%22%2C%22eval%22%3A%221%22%7D&pdp_npi=4%40dis%21USD%219.50%216.00%21%21%219.50%216.00%21%4021030ea417520894030141830ebac8%2112000038353355770%21sea%21US%216388337753%21X&curPageLogUid=6T9DOaEms7fh&utparam-url=scene%3Asearch%7Cquery_from%3A
+4 Ohm 3 Watt Speaker,1,$2.95,Aliexpress,Outputs amplified data from amp as audio,https://www.aliexpress.us/item/3256805513376202.html?spm=a2g0o.detail.0.0.e91d8P9I8P9IvQ&mp=1&pdp_npi=5%40dis%21USD%21USD%202.95%21USD%202.81%21%21USD%202.81%21%21%21%402101ef7017517659888774051ebce8%2112000037280015644%21ct%21US%216388337753%21%211%210&gatewayAdapt=glo2usa
+KY-037 Sound Sensor,1,$1.04,Aliexpress,Detects whenever a sound is over a threshold,https://www.aliexpress.us/item/3256807347494500.html?spm=a2g0o.detail.0.0.542aLwRHLwRHNI&mp=1&pdp_npi=5%40dis%21USD%21USD%202.92%21USD%202.92%21%21USD%202.92%21%21%21%402103244617517664615985016e6b67%2112000041188403861%21ct%21US%216388337753%21%211%210&gatewayAdapt=glo2usa
+ESP32,1,$3.98,Aliexpress,"Controls all modules/PCB, triggers MP3",https://www.aliexpress.us/item/3256807453968983.html?spm=a2g0o.detail.0.0.4443wfd1wfd1Kn&mp=1&pdp_npi=5%40dis%21USD%21USD%203.98%21USD%203.64%21%21USD%203.64%21%21%21%402103246617517664681434438e1056%2112000041608696464%21ct%21US%216388337753%21%211%210&gatewayAdapt=glo2usa
+MAX98357A Speaker Amp,1,$1.66,Aliexpress,Amplifies MP3 data to signals usable by speaker,https://www.aliexpress.us/item/3256806882501015.html?spm=a2g0o.detail.0.0.7a781pAH1pAHw5&mp=1&pdp_npi=5%40dis%21USD%21USD%201.84%21USD%201.80%21%21USD%201.80%21%21%21%402103277f17517664746265268e3da2%2112000039302356100%21ct%21US%216388337753%21%211%210&gatewayAdapt=glo2usa
+PCB,1,$2.00,JLCPCB,Holds and wires RGBW lights,
+Case (all parts),1,$0.00,Owned,"Contains all parts, looks pretty",
+"M2 Screws (4x 16mm, 2x 10mm)",6,$0.00,Owned,Holds together the case shells and attaches speaker,
+Paint,1,$0.00,Owned,Makes case look prettier,
+Cable,1,$0.00,Owned,"Communicates between ESP32 and comupter, provides power",
+Soldering Iron + Solder Wire + Flux,1,$0.00,Owned,Secures wires between modules/components,
+Solid Core Wire,1,$0.00,Owned,Connects components together,
+Hot Glue,1,$0.00,Owned,Secures loose components to the case,
+,,,,,
+,Subtotal:,$16.97,,Aliexpress: $16.91,
+,Total:,$25.03,,JLCPCB: $8.12,
